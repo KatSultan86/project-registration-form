@@ -8,18 +8,31 @@
 }
 
 .container {
-    background-color: lightgray;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100dvw;
+    height: 100dvh;
+
 }
 
 
 .main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50dvw;
+    height: 50dvh;
+
+    border: 2px solid black;
 }
 
 .image {
-    
+    transform-origin: top left;
+    transform: scale(0.2); 
+   max-width: 10%;
+   height: auto;
 }
