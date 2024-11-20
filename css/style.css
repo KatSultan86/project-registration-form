@@ -1,0 +1,25 @@
+/* reset to default values for box-model*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* to set the content from border to border */
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    display: flex;
+}
+
+.image {
+    
+}
