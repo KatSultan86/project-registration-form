@@ -5,6 +5,7 @@
     padding: 0;
     /* to set the content from border to border */
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 .container {
@@ -24,28 +25,44 @@
     justify-content: center;
     /* align-items: center; */
     max-width: 50%;
-    max-height: 50%;
+    max-height: 80%;
     
     border: 2px solid red;
 }
 
 .paragraph {
-    padding: 20px 20px 20px;
+    padding: 20px 10px 20px;
+    padding-right: 40px;
 }
 
 .loginbutton {
-    padding: 20px;
-    margin: 20px ;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding-left: 10px;
 }
 
 
 .leftside {
+    float: left;
+    flex: 1;
+
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+
     background-color: lightgrey;
 
     border: 2px solid black;
+
+}
+
+.image {
+  width: 5%;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
