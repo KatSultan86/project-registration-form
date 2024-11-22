@@ -8,6 +8,8 @@
     font-family: 'Mulish', sans-serif;
 }
 
+
+/* MAIN CONTAINER */
 .container {
 
     display: flex;
@@ -20,6 +22,7 @@
 }
 
 
+/* CENTER CONTAINER */
 .main {
     display: flex;
     justify-content: center;
