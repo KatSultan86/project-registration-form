@@ -30,6 +30,9 @@
     border: 2px solid red;
 }
 
+
+
+/* LEFT SIDE */
 .paragraph {
     padding: 20px 10px 20px;
     padding-right: 40px;
@@ -59,11 +62,17 @@
   width: 5%;
 }
 
-/* .rightside {
+
+
+/* RIGHT SIDE */
+
+.rightside {
+    float: left;
     display: flex;
     flex-direction: column;
+    
 
-} */
+}
 
 .firslastname {
     display: flex;
@@ -73,5 +82,8 @@
 .emailpass {
     display: flex;
     flex-direction: column;
+    
 }
+
+
 
