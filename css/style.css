@@ -59,10 +59,19 @@
   width: 5%;
 }
 
-.rightside {
+/* .rightside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
+} */
+
+.firslastname {
+    display: flex;
+
+}
+
+.emailpass {
+    display: flex;
+    flex-direction: column;
 }
 
