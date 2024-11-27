@@ -5,6 +5,10 @@
     padding: 0;
     /* to set the content from border to border */
     box-sizing: border-box;
+    
+}
+
+body {
     font-family: 'Mulish', sans-serif;
 }
 
@@ -27,29 +31,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     width: 1200px;
-     height: 700px;
+     max-width: 1200px;
+     /* height: 40%; */
     
-    border: 2px solid red;
+     box-shadow: 0 0 15px rgba(0,0,0,0.1);
+     border-radius: 10px;
+}
+
+
+.btn {
+ padding: 0.5rem 1.5rem;
+ background-color: rgb(74, 209, 250);
+ color: white;
+ font-size: 1.1rem;
+border: none;
+border-radius: 5px;
 }
 
 
 
 /* LEFT SIDE */
-.paragraph {
-    padding: 20px 10px 20px;
-    padding-right: 40px;
-}
-
-.loginbutton {
-    margin-top: 10px;
-    margin-bottom: 60px;
-    padding-left: 10px;
-}
-
 
 .leftside {
-   float: left;
     width: 50%; 
     height: 100%;
 
@@ -57,14 +60,24 @@
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: lightgrey;
-
-    border: 2px solid black;
-
+    background-color: rgb(252, 250, 250);
+    padding: 1.5rem;
 }
 
+
 .image img {
-  width: 100px;
+  width: 25%;
+}
+
+
+
+.loginbutton {
+    margin-bottom: 1.5rem;
+}
+
+
+.paragraph {
+    margin-bottom: 1.5rem;
 }
 
 
@@ -72,20 +85,42 @@
 /* RIGHT SIDE */
 
 .rightside {
-    float: left;
     display: flex;
     flex-direction: column;
    justify-content: space-between;
    width: 50%;
    height: 100%;
-    
+   padding: 1.5rem;
+}
+
+
+
+.regform {
+  margin-bottom: 2rem;
 
 }
+
+.regform h2 {
+    font-weight: 870;
+    font-size: 1.75rem ;
+    color: rgb(62, 58, 58);
+}
+
 
 .firslastname {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
 
 }
+
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
 
 .emailpass {
     display: flex;
@@ -93,9 +128,56 @@
     
 }
 
+#firstname, #lastname {
+    padding: 8px;
+ 
+}
+
+
+
 #email, #password {
     width: 100%;
+    padding: 8px;
+    margin-bottom: 1rem;
 }
+
+
+#password {
+    margin-bottom: 2rem;
+}
+
+
+.registerbutton {
+margin-top: 1.5rem;
+}
+
+label {
+    color: rgb(128, 124, 124);
+    font-weight: 650;
+    font-size: 0.93rem;
+
+}
+
+input {
+    border: 3px solid rgb(233, 227, 227);
+    border-radius: 3px;
+}
+
+a {
+    color: rgb(87, 5, 128);
+}
+
+a:hover {
+    color: rgb(176, 70, 230);
+}
+
+
+
+
+
+
+
+
 
 
 
