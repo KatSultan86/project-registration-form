@@ -34,7 +34,7 @@ body {
     align-items: stretch;
     overflow: hidden;
 
-      width: 1000px;
+      width: 900px;
    
     
      box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -123,7 +123,7 @@ border-radius: 5px;
 }
 
 .first, .last {
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -175,7 +175,7 @@ input {
     border-radius: 3px;
 }
 
-.firs input, .last input {
+.first input, .last input {
   width: 100%;
 }
 
